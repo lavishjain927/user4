@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Navbars</title>
+  <style>
+    body {
+      background-color: #b9e9f4;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #006d77;
+      padding: 10px 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+
+    .navbar a, .logo {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    .logo {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-btn {
+      background-color: white;
+      color: #006d77;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .contact-btn:hover {
+      background-color: #edf6f9;
+    }
+
+    /* Navbar 2 - Logo on right */
+    .navbar2 {
+      flex-direction: row-reverse;
+    }
+
+    /* Navbar 3 - Logo center */
+    .navbar3 {
+      justify-content: space-around;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar 1 -->
+  <div class="navbar">
+    <div class="logo">B W C</div>
+    <div class="menu">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+    </div>
+    <button class="contact-btn">CONTACT</button>
+  </div>
+
+  <!-- Navbar 2 -->
+  <div class="navbar navbar2">
+    <div class="logo">B W C</div>
+    <div class="menu">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+      <button class="contact-btn" style="margin-left:10px;">CONTACT</button>
+    </div>
+  </div>
+
+  <!-- Navbar 3 -->
+  <div class="navbar navbar3">
+    <div class="menu">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+    </div>
+    <div class="logo">B W C</div>
+    <button class="contact-btn">CONTACT</button>
+  </div>
+
+</body>
+</html>

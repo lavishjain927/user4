@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zay Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #1d1e20;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .top-bar {
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      background-color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .hero {
+      display: flex;
+      padding: 40px 20px;
+      background-color: #f7f7f7;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hero img {
+      max-width: 300px;
+    }
+
+    .categories, .products {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .categories .items, .products .items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .category, .product {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+    }
+
+    .category img, .product img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-columns div {
+      flex: 1;
+      margin: 10px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding: 10px;
+      background-color: #161718;
+      font-size: 14px;
+    }
+
+    .subscribe {
+      margin-top: 10px;
+    }
+
+    .subscribe input {
+      padding: 8px;
+      width: 200px;
+    }
+
+    .subscribe button {
+      padding: 8px 12px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div>
+        📧 info@company.com | 📞 010-020-0340
+      </div>
+      <div>
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div><h2 style="color: green;">Zay</h2></div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </div>
+    <div>
+      🔍 🛒
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h2>Provident occaecat</h2>
+      <p>Aliquip ex ea commodo consequat. You are permitted to use this template...</p>
+    </div>
+    <img src="download (5).jpeg" alt="Hero Image">
+  </section>
+
+  <section class="categories">
+    <h2>Categories of The Month</h2>
+    <p>Explore trending products of the month</p>
+    <div class="items">
+      <div class="category">
+        <img src="download.jpeg" alt="Watches">
+        <h3>Watches</h3>
+        <button>Go Shop</button>
+      </div>
+      <div class="category">
+        <img src="pictures/Fashion-Running-Sneaker-for-Men-Shoes-Casual-Shoes-Leather-Sport-Shoes-Breathable-Comfortable-Walking-Shoes-Black-US11_8e9d44bb-b19b-42e9-bca1-979205c0779e.6fc41a815c10699375294302df46565a.webp" alt="Shoes">
+        <h3>Shoes</h3>
+        <button>Go Shop</button>
+      </div>
+      <div class="category">
+        <img src="download (2).jpeg" alt="Accessories">
+        <h3>Accessories</h3>
+        <button>Go Shop</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <h2>Featured Product</h2>
+    <p>Check out top featured products this week</p>
+    <div class="items">
+      <div class="product">
+        <img src="gym wait.jpeg" alt="Gym Weight">
+        <h4>Gym Weight</h4>
+        <p>$240.00</p>
+        <p>⭐⭐⭐⭐☆</p>
+      </div>
+      <div class="product">
+        <img src="cloud nike shoes.jpeg" alt="Nike Watch">
+        <h4>Cloud Nike Shoes</h4>
+        <p>$480.00</p>
+        <p>⭐⭐⭐⭐☆</p>
+      </div>
+      <div class="product">
+        <img src="pictures/download (4).jpeg" alt="Addidas Shoes">
+        <h4>Summer Addides Shoes</h4>
+        <p>$360.00</p>
+        <p>⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-columns">
+      <div>
+        <h3>Zay Shop</h3>
+        <p>📍 123 Consectetur at ligula 10660</p>
+        <p>📞 010-020-0340</p>
+        <p>✉️ info@company.com</p>
+      </div>
+      <div>
+        <h3>Products</h3>
+        <p>Luxury</p>
+        <p>Sport Wear</p>
+        <p>Men's Shoes</p>
+        <p>Women's Shoes</p>
+      </div>
+      <div>
+        <h3>Further Info</h3>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Shop Locations</p>
+        <p>Contact</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Email address">
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright © 2025 Company Name | Designed by You
+    </div>
+  </footer>
+
+</body>
+</html>
